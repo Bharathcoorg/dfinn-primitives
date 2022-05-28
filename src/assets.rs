@@ -26,8 +26,8 @@ use scale_info::TypeInfo;
 #[derive(Encode, Decode, Copy, Clone, PartialEq, Eq, Ord, PartialOrd, RuntimeDebug, TypeInfo, MaxEncodedLen)]
 #[cfg_attr(feature = "std", derive(Serialize, Deserialize))]
 pub enum AssetId {
-    /// PDEX the native currency of the chain
-    polkadex,
+    /// FINN the native currency of the chain
+    dfinn,
     /// Generic enumerated assed
     /// Range 0 - 0x00000000FFFFFFFF (2^32)-1 is reserved for protected tokens
     /// the values under 1000 are used for ISO 4217 Numeric Curency codes
